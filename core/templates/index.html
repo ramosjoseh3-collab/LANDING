@@ -1,0 +1,371 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<!-- Hero Section -->
+<section id="hero" class="hero-section d-flex align-items-center">
+    <div class="container">
+        <div class="row align-items-center flex-column-reverse flex-lg-row">
+            <div class="col-lg-6 text-center text-lg-start mt-5 mt-lg-0">
+                <span class="badge bg-soft-primary text-primary-color mb-3 px-3 py-2 rounded-pill shadow-sm">Atención Personalizada</span>
+                <h1 class="display-4 fw-bold text-dark mb-3">Araceli Sona</h1>
+                <h2 class="h3 text-muted mb-4">Acompañante Terapéutico</h2>
+                <p class="lead text-secondary mb-5">
+                    "El AT no camina delante para guiar, ni detrás para seguir; camina al lado para sostener"
+                </p>
+                <div class="d-flex flex-column flex-sm-row justify-content-center justify-content-lg-start gap-3">
+                    <a href="#contacto" class="btn btn-primary-custom text-white px-4 py-3 rounded-pill fw-semibold shadow"><i class="fa-regular fa-calendar-check me-2"></i>Solicitar Turno</a>
+                    <a href="https://wa.me/5493874627032" target="_blank" rel="noopener" class="btn btn-outline-success px-4 py-3 rounded-pill fw-semibold shadow-sm"><i class="fa-brands fa-whatsapp me-2"></i>Contactar por WhatsApp</a>
+                </div>
+            </div>
+            <div class="col-lg-6 text-center">
+                <!-- Imagen Placeholder -->
+                <div class="hero-image-wrapper mx-auto">
+                    <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Araceli Sona" class="img-fluid rounded-circle shadow-lg hero-img">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Sobre mí -->
+<section id="sobre-mi" class="py-5 bg-white">
+    <div class="container py-5">
+        <div class="row align-items-center">
+            <div class="col-lg-5 mb-4 mb-lg-0">
+                <img src="https://images.unsplash.com/photo-1544717297-fa95b6ee9643?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Consultorio" class="img-fluid rounded-4 shadow">
+            </div>
+            <div class="col-lg-7 ps-lg-5">
+                <div class="section-title mb-4">
+                    <h6 class="text-accent fw-bold text-uppercase tracking-wide">Conóceme</h6>
+                    <h2 class="fw-bold text-dark">Sobre mi trayectoria</h2>
+                </div>
+                <p class="text-secondary mb-4">
+                    Acompañante Terapéutico en formación, con experiencia en el acompañamiento de pacientes. Me destaco por mi empatía, responsabilidad y capacidad para brindar contención emocional, promoviendo la autonomía y el bienestar de las personas. Busco desarrollarme en entornos donde pueda aportar compromiso, vocación de servicio y trabajo en equipo.
+                </p>
+                <div class="row g-4 mt-2">
+                    <div class="col-md-6">
+                        <div class="d-flex align-items-start">
+                            <div class="icon-box bg-soft-primary text-primary-color rounded-circle p-3 me-3">
+                                <i class="fa-solid fa-graduation-cap fs-4"></i>
+                            </div>
+                            <div>
+                                <h5 class="fw-bold mb-1">Formación</h5>
+                                <p class="text-muted small">Psicopedagogía (en curso), Cursos de AT, Enfermería y Lengua de Señas.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="d-flex align-items-start">
+                            <div class="icon-box bg-soft-accent text-accent rounded-circle p-3 me-3">
+                                <i class="fa-solid fa-briefcase fs-4"></i>
+                            </div>
+                            <div>
+                                <h5 class="fw-bold mb-1">Experiencia</h5>
+                                <p class="text-muted small">Experiencia como Acompañante Terapéutico en instituciones educativas y de manera particular.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Servicios -->
+<section id="servicios" class="py-5 bg-light-gray">
+    <div class="container py-5">
+        <div class="text-center mb-5 section-title">
+            <h6 class="text-accent fw-bold text-uppercase tracking-wide">Áreas de trabajo</h6>
+            <h2 class="fw-bold text-dark">Habilidades y Servicios</h2>
+        </div>
+        <div class="row g-4">
+            <div class="col-md-6 col-lg-4">
+                <div class="card h-100 border-0 shadow-sm service-card p-4 rounded-4">
+                    <div class="card-icon bg-soft-primary text-primary-color mb-3 rounded-3 d-inline-flex align-items-center justify-content-center p-3">
+                        <i class="fa-solid fa-hand-holding-heart fs-2"></i>
+                    </div>
+                    <h5 class="fw-bold mb-3">Contención Emocional</h5>
+                    <p class="text-muted small mb-0">Empatía y contención emocional brindando apoyo en procesos terapéuticos.</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="card h-100 border-0 shadow-sm service-card p-4 rounded-4">
+                    <div class="card-icon bg-soft-accent text-accent mb-3 rounded-3 d-inline-flex align-items-center justify-content-center p-3">
+                        <i class="fa-solid fa-child-reaching fs-2"></i>
+                    </div>
+                    <h5 class="fw-bold mb-3">Estimulación y Autonomía</h5>
+                    <p class="text-muted small mb-0">Estimulación de habilidades motrices y promoción de la autonomía, fomentando la creatividad en actividades de estimulación.</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="card h-100 border-0 shadow-sm service-card p-4 rounded-4">
+                    <div class="card-icon bg-soft-primary text-primary-color mb-3 rounded-3 d-inline-flex align-items-center justify-content-center p-3">
+                        <i class="fa-solid fa-house-chimney-medical fs-2"></i>
+                    </div>
+                    <h5 class="fw-bold mb-3">Acompañamiento en Vida Diaria</h5>
+                    <p class="text-muted small mb-0">Acompañamiento integral a pacientes en actividades de la vida diaria, con adaptabilidad a distintos entornos.</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="card h-100 border-0 shadow-sm service-card p-4 rounded-4">
+                    <div class="card-icon bg-soft-accent text-accent mb-3 rounded-3 d-inline-flex align-items-center justify-content-center p-3">
+                        <i class="fa-solid fa-users fs-2"></i>
+                    </div>
+                    <h5 class="fw-bold mb-3">Trabajo en Equipo</h5>
+                    <p class="text-muted small mb-0">Trabajo coordinado con profesionales y familiares, con un alto nivel de responsabilidad y compromiso.</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="card h-100 border-0 shadow-sm service-card p-4 rounded-4">
+                    <div class="card-icon bg-soft-primary text-primary-color mb-3 rounded-3 d-inline-flex align-items-center justify-content-center p-3">
+                        <i class="fa-solid fa-user-group fs-2"></i>
+                    </div>
+                    <h5 class="fw-bold mb-3">Niños, Adolescentes y Adultos Mayores</h5>
+                    <p class="text-muted small mb-0">Atención personalizada y comunicación efectiva adaptada a pacientes en diferentes etapas de la vida.</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="card h-100 border-0 shadow-sm service-card p-4 rounded-4">
+                    <div class="card-icon bg-soft-accent text-accent mb-3 rounded-3 d-inline-flex align-items-center justify-content-center p-3">
+                        <i class="fa-solid fa-list-check fs-2"></i>
+                    </div>
+                    <h5 class="fw-bold mb-3">Organización y Resolución</h5>
+                    <p class="text-muted small mb-0">Organización y resolución de problemas para lograr objetivos comunes en el marco del tratamiento.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Beneficios -->
+<section id="beneficios" class="py-5 text-white position-relative" style="background: linear-gradient(135deg, #a4cbf3 0%, #B2DFDB 100%);">
+    <div class="container py-5">
+        <div class="row align-items-center">
+            <div class="col-lg-6 mb-5 mb-lg-0">
+                <h2 class="fw-bold mb-4">Horarios y Modalidad</h2>
+                <p class="lead mb-4">Brindo un entorno seguro y profesional donde cada paciente puede desarrollar su máximo potencial respetando sus propios tiempos.</p>
+                <ul class="list-unstyled">
+                    <li class="mb-3 d-flex align-items-center"><i class="fa-solid fa-clock fs-5 me-3 text-white"></i> <strong>Lunes a Viernes:</strong> De 8:00 hs. a 13:00 hs. y de 14:00 hs. a 18:00 hs.</li>
+                    <li class="mb-3 d-flex align-items-center"><i class="fa-solid fa-hospital fs-5 me-3 text-white"></i> <strong>Viernes, Sábado y Domingo (Clínicas y Hospitales):</strong> De 9:00 hs. a 12:00 hs. y de 20:00 hs. a 9:00 hs.</li>
+                    <li class="mb-3 d-flex align-items-center"><i class="fa-solid fa-hands-holding-child fs-5 me-3 text-white"></i> Trabajo de manera particular, en clínica privada y hospitales.</li>
+                    <li class="mb-3 d-flex align-items-center"><i class="fa-solid fa-ear-listen fs-5 me-3 text-white"></i> Conocimiento en Lengua de señas (básico) e Inglés (básico).</li>
+                </ul>
+            </div>
+            <div class="col-lg-6">
+                <div class="row g-4">
+                    <div class="col-6">
+                        <div class="bg-white bg-opacity-25 p-4 rounded-4 text-center glass-effect h-100">
+                            <h3 class="fw-bold display-5 mb-1"><i class="fa-solid fa-house"></i></h3>
+                            <p class="mb-0 small text-uppercase fw-semibold">Atención Particular</p>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="bg-white bg-opacity-25 p-4 rounded-4 text-center glass-effect h-100">
+                            <h3 class="fw-bold display-5 mb-1"><i class="fa-solid fa-hospital-user"></i></h3>
+                            <p class="mb-0 small text-uppercase fw-semibold">Clínicas y Hospitales</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Testimonios -->
+<section id="testimonios" class="py-5 bg-white">
+    <div class="container py-5">
+        <div class="text-center mb-5 section-title">
+            <h6 class="text-accent fw-bold text-uppercase tracking-wide">Experiencias</h6>
+            <h2 class="fw-bold text-dark">Lo que dicen las familias</h2>
+        </div>
+        <div class="row g-4 justify-content-center">
+            <div class="col-md-6 col-lg-4">
+                <div class="card h-100 border-0 shadow-sm rounded-4 testimonial-card p-4 text-center">
+                    <i class="fa-solid fa-quote-left fs-1 text-soft-primary mb-3"></i>
+                    <p class="text-muted fst-italic mb-4">"El cambio en nuestro hijo fue notable desde el primer mes. Su acompañamiento logró que volviera a tener confianza en sí mismo y se integrara mejor en sus actividades. Excelente profesional."</p>
+                    <div class="mt-auto">
+                        <h6 class="fw-bold mb-0">Laura S.</h6>
+                        <small class="text-accent">Madre de paciente (9 años)</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="card h-100 border-0 shadow-sm rounded-4 testimonial-card p-4 text-center">
+                    <i class="fa-solid fa-quote-left fs-1 text-soft-primary mb-3"></i>
+                    <p class="text-muted fst-italic mb-4">"Como Acompañante Terapéutica, su dedicación es admirable. Su integración en el colegio ha sido clave para el bienestar emocional de mi hija. Estamos muy agradecidos."</p>
+                    <div class="mt-auto">
+                        <h6 class="fw-bold mb-0">Martín P.</h6>
+                        <small class="text-accent">Padre de paciente (14 años)</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="card h-100 border-0 shadow-sm rounded-4 testimonial-card p-4 text-center">
+                    <i class="fa-solid fa-quote-left fs-1 text-soft-primary mb-3"></i>
+                    <p class="text-muted fst-italic mb-4">"Encontramos en su acompañamiento un espacio de mucha paz y contención. Nos brindó herramientas muy valiosas para el día a día."</p>
+                    <div class="mt-auto">
+                        <h6 class="fw-bold mb-0">Valeria G.</h6>
+                        <small class="text-accent">Madre de paciente (7 años)</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- FAQ -->
+<section id="faq" class="py-5 bg-light-gray">
+    <div class="container py-5">
+        <div class="text-center mb-5 section-title">
+            <h6 class="text-accent fw-bold text-uppercase tracking-wide">Dudas comunes</h6>
+            <h2 class="fw-bold text-dark">Preguntas Frecuentes</h2>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div class="accordion custom-accordion" id="accordionFAQ">
+                    <div class="accordion-item border-0 mb-3 shadow-sm rounded-3">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button fw-bold rounded-3" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
+                                ¿Qué hace un Acompañante Terapéutico?
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionFAQ">
+                            <div class="accordion-body text-muted">
+                                Es un profesional de la salud que trabaja en la cotidianidad del paciente. Su objetivo principal es promover la autonomía, brindar contención emocional y facilitar la integración social y escolar, siempre trabajando en conjunto con un equipo interdisciplinario.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item border-0 mb-3 shadow-sm rounded-3">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed fw-bold rounded-3" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo">
+                                ¿Cuándo se solicita un AT?
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFAQ">
+                            <div class="accordion-body text-muted">
+                                Generalmente es indicado por un profesional tratante (psicólogo, psiquiatra, neurólogo) cuando el paciente requiere un apoyo sostenido en sus actividades de la vida diaria, para favorecer su estabilización y promover habilidades sociales o motrices.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item border-0 mb-3 shadow-sm rounded-3">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed fw-bold rounded-3" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree">
+                                ¿A quiénes está dirigido el servicio?
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFAQ">
+                            <div class="accordion-body text-muted">
+                                A niños, adolescentes y adultos mayores que requieran apoyo emocional, conductual o motriz en diferentes entornos como el hogar, la escuela o espacios públicos (hospitales, clínicas, salidas terapéuticas).
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item border-0 mb-3 shadow-sm rounded-3">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed fw-bold rounded-3" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour">
+                                ¿Las sesiones pueden ser virtuales?
+                            </button>
+                        </h2>
+                        <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFAQ">
+                            <div class="accordion-body text-muted">
+                                El trabajo del Acompañante Terapéutico es principalmente presencial y situado, ya que interviene en la vida cotidiana y entornos reales del paciente. Solo en casos muy excepcionales o entrevistas iniciales con familiares puede utilizarse la modalidad virtual.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contacto -->
+<section id="contacto" class="py-5 bg-white">
+    <div class="container py-5">
+        <div class="row align-items-center">
+            <div class="col-lg-5 mb-5 mb-lg-0">
+                <h6 class="text-accent fw-bold text-uppercase tracking-wide">Comencemos</h6>
+                <h2 class="fw-bold text-dark mb-4">Solicitá una entrevista inicial</h2>
+                <p class="text-secondary mb-4">Completá el formulario y me pondré en contacto con vos a la brevedad para coordinar un encuentro. También podés escribirme directamente por WhatsApp.</p>
+                <div class="d-flex align-items-center mb-3">
+                    <div class="bg-soft-primary text-primary-color rounded-circle p-3 me-3">
+                        <i class="fa-solid fa-phone fs-5"></i>
+                    </div>
+                    <div>
+                        <h6 class="fw-bold mb-0">Teléfono</h6>
+                        <p class="text-muted small mb-0">+54 9 387 462-7032</p>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center mb-3">
+                    <div class="bg-soft-accent text-accent rounded-circle p-3 me-3">
+                        <i class="fa-solid fa-envelope fs-5"></i>
+                    </div>
+                    <div>
+                        <h6 class="fw-bold mb-0">Email</h6>
+                        <p class="text-muted small mb-0">araceli123sona@gmail.com</p>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center">
+                    <div class="bg-soft-primary text-primary-color rounded-circle p-3 me-3">
+                        <i class="fa-solid fa-location-dot fs-5"></i>
+                    </div>
+                    <div>
+                        <h6 class="fw-bold mb-0">Ubicación</h6>
+                        <p class="text-muted small mb-0">Rojas 1164, Salta Capital (Zona Macrocentro)</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-7 ps-lg-5">
+                <div class="card border-0 shadow-lg rounded-4 p-4 p-md-5">
+                    
+                    {% if messages %}
+                        {% for message in messages %}
+                            <div class="alert alert-{{ message.tags }} alert-dismissible fade show" role="alert">
+                                {{ message }}
+                                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                            </div>
+                        {% endfor %}
+                    {% endif %}
+
+                    <form method="post" action="{% url 'index' %}#contacto">
+                        {% csrf_token %}
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <label for="{{ form.nombre.id_for_label }}" class="form-label fw-semibold">Nombre completo</label>
+                                {{ form.nombre }}
+                                {% if form.nombre.errors %}
+                                    <div class="text-danger small mt-1">{{ form.nombre.errors }}</div>
+                                {% endif %}
+                            </div>
+                            <div class="col-md-6">
+                                <label for="{{ form.email.id_for_label }}" class="form-label fw-semibold">Correo electrónico</label>
+                                {{ form.email }}
+                                {% if form.email.errors %}
+                                    <div class="text-danger small mt-1">{{ form.email.errors }}</div>
+                                {% endif %}
+                            </div>
+                            <div class="col-12">
+                                <label for="{{ form.telefono.id_for_label }}" class="form-label fw-semibold">Teléfono</label>
+                                {{ form.telefono }}
+                                {% if form.telefono.errors %}
+                                    <div class="text-danger small mt-1">{{ form.telefono.errors }}</div>
+                                {% endif %}
+                            </div>
+                            <div class="col-12">
+                                <label for="{{ form.mensaje.id_for_label }}" class="form-label fw-semibold">Mensaje o motivo de consulta</label>
+                                {{ form.mensaje }}
+                                {% if form.mensaje.errors %}
+                                    <div class="text-danger small mt-1">{{ form.mensaje.errors }}</div>
+                                {% endif %}
+                            </div>
+                            <div class="col-12 mt-4">
+                                <button type="submit" class="btn btn-primary-custom text-white w-100 py-3 rounded-pill fw-bold shadow">Enviar Mensaje</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+{% endblock %}
